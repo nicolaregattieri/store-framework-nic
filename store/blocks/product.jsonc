@@ -16,7 +16,7 @@
       "verticalAlign": "middle",
       "preventVerticalStretch": true
     },
-    "children": ["product-name", "product-price", "buy-button"]
+    "children": ["product-name", "product-price", "sku-selector", "buy-button"]
   },
   "product-price": {
     "props": {
@@ -31,6 +31,13 @@
     "props": {
       "displayMode": "logo",
       "height": 30
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "InitialSelection": "empty",
+      "DisplayMode": "name",
+      "showVariationsErrorMessage": true
     }
   }
 }
